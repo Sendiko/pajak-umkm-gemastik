@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "serve -s dist"
-  },
+  "serve": "serve -s dist -l 3015"  },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
