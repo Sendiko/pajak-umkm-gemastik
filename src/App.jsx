@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import IntroSection from './components/IntroSection'; // 
+import IntroSection from './components/IntroSection'
 import Calculator from './components/Calculator';
 import Results from './components/Results';
 import Features from './components/Features';
@@ -31,7 +31,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <IntroSection /> {/* <--  */}
+        <IntroSection />
         <Features />
         <section id="kalkulator" className="bg-gray-50/50 py-20 px-6 scroll-mt-20">
             <div className="container mx-auto">
